@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: Inhuman-insurance-inc-ais-robot-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 env:
   APP_NAME: 'Inhuman-insurance-inc-ais-robot'
@@ -11,6 +11,8 @@ on:
 
 jobs:
   my_testing:
+    env:
+      VAR1: 'FAR'
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello Message from testing
