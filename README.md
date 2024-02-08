@@ -1,9 +1,7 @@
 # Inhuman-insurance-inc-ais-robot
 
 Status of Last Deployment: 
-<br>
-<img src="https://github.com/linksysadmin/inhuman-insurance-inc-ais-robot-RPA-3/workflows/Inhuman-insurance-inc-ais-robot-actions/badge.svg?branch=main">
-<br>
+[![Inhuman-insurance-inc-ais-robot-actions](https://github.com/linksysadmin/inhuman-insurance-inc-ais-robot-RPA-3/actions/workflows/learn-github-actions.yml/badge.svg)](https://github.com/linksysadmin/inhuman-insurance-inc-ais-robot-RPA-3/actions/workflows/learn-github-actions.yml)
 
 ```
 ┌──────────┐   ┌────────────┐   ┌──────────┐
