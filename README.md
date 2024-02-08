@@ -1,10 +1,31 @@
 # Inhuman-insurance-inc-ais-robot
 
+Status of Last Deployment: 
+<br>
+<img src="https://github.com/linksysadmin/inhuman-insurance-inc-ais-robot-RPA-3/workflows/Inhuman-insurance-inc-ais-robot-actions/badge.svg?branch=main">
+</br 
+
 ```
 ┌──────────┐   ┌────────────┐   ┌──────────┐
 │ Producer │ → │ Work items │ → │ Consumer │ → 💰
 └──────────┘   └────────────┘   └──────────┘
 ```
+
+
+## Work Item management in the Control Room
+
+
+Tasks -> Add Task Package:
+    - Enter Task Package name
+    - Enter Public Git
+
+Processes -> New process:
+    - Add Task Produce Data
+    - Add variables
+
+
+
+
 
 
 ## Create a new robot
