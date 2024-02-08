@@ -2,6 +2,8 @@ output/
 venv/
 temp/
 testrun
+help
+.github/workflows/build.yml
 .rpa/
 .idea/
 .ipynb_checkpoints/
