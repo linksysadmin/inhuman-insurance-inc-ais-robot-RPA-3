@@ -12,4 +12,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: whoami
+        script: | 
+          cd /var/www/inhuman-insurance-inc-ais-robot-RPA-3
+          git checkout main 
+          git pull
