@@ -3,7 +3,7 @@
 Status of Last Deployment: 
 <br>
 <img src="https://github.com/linksysadmin/inhuman-insurance-inc-ais-robot-RPA-3/workflows/Inhuman-insurance-inc-ais-robot-actions/badge.svg?branch=main">
-</br 
+<br>
 
 ```
 ┌──────────┐   ┌────────────┐   ┌──────────┐
