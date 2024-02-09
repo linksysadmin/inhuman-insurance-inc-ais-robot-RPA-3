@@ -24,4 +24,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Compose UP
-        run: docker up -d
+        run: docker compose up -d
