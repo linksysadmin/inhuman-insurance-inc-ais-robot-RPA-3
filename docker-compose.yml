@@ -1,0 +1,11 @@
+version: '3'
+services:
+  robot:
+    image: robot-rpa
+#    restart: always
+    ports:
+      - 6543:6543
+    environment:
+      USER: admin
+#    volumes:
+#      -
