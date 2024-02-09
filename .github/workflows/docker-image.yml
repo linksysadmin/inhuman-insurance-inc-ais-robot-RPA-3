@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build the Docker image for ${{ env.APP_NAME }}
-        run: docker build . --file Dockerfile --tag robot-rpa:$(date +%s)
+        run: docker build . --file Dockerfile --tag robot-rpa
 
   test:
     needs: [build]
