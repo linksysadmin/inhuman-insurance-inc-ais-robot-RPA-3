@@ -1,14 +1,16 @@
-FROM python:3.10
+FROM continuumio/miniconda3:latest
 
-# Установка рабочей директории внутри контейнера
 WORKDIR /app
 
-# Install dependencies
-COPY requirements.txt /app
-RUN pip install -r requirements.txt
+COPY conda.yaml /app
 
-# Копирование вашего проекта в контейнер
+RUN conda update -n base -c defaults conda
+RUN conda env create -n myenv -f conda.yaml
+
+SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
+
+RUN echo "source activate myenv" > ~/.bashrc
+
 COPY . /app
 
-# CMD для запуска вашего скрипта
-CMD ["python", "producer.py"]
+CMD ["conda", "run", "-n", "myenv", "python", "producer.py"]
