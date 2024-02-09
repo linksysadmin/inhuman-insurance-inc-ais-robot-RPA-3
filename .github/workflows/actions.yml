@@ -1,7 +1,7 @@
 name: Inhuman-insurance-inc-ais-robot-actions
 run-name: ${{ github.actor }} create Docker Image
 env:
-  APP_NAME: 'Inhuman-insurance-inc-ais-robot'
+  APP_NAME: 'robot-rpa'
 on:
   push:
     branches: [ "main" ]
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build the Docker image for ${{ env.APP_NAME }}
-        run: docker build . --file Dockerfile --tag robot-rpa
+        run: docker build . --file Dockerfile --tag ${{ env.APP_NAME }}
 
   test:
     needs: [build]

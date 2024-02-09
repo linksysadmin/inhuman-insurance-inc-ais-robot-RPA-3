@@ -13,4 +13,4 @@ RUN echo "source activate venv" > ~/.bashrc
 
 COPY . /app
 
-CMD ["conda", "run", "-n", "venv", "python", "producer.py"]
+#CMD ["conda", "run", "-n", "venv", "python", "producer.py"]
